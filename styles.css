@@ -54,23 +54,30 @@ table {
 	font-family: skranji, sans serif;
 }
 
-
+a {
+	color: #fff;
+	text-decoration: none;
+}
 
 
 /*  Header  */
 #header {
 	height: 80px;
-	padding: 0 10%;
 	background-color: #000;
 	color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 101;
 }
 #logo {
 	float: left;
+	margin-left: 10%;
 	line-height: 80px;
 	font-size: 34px;
 }
 #cart {
 	float: right;
+	margin-right: 10%;
 	line-height: 80px;
 	font-size: 20px;
 }
@@ -149,7 +156,7 @@ table {
 	background-color: yellow;
 	right: 0px;
 	top: 80px;
-	z-index: 1000;
+	z-index: 100;
 	padding: 5px 20px 0 20px;
 	color: #000;
 	font-size: 28px;
@@ -172,7 +179,6 @@ table {
 	line-height: 50px;
 	font-size: 20px;
 	text-decoration: none;
-	color: #fff;
 	background-color: #111;
 	margin: 10px auto 0 auto;
 	border-radius: 5px;
