@@ -50,19 +50,17 @@ table {
 
 
 /* General */
-div {
-	border: 1px solid gray;
-}
 .skranji {
 	font-family: skranji, sans serif;
 }
 
 
 
+
 /*  Header  */
 #header {
 	height: 80px;
-	padding: 0 15%;
+	padding: 0 10%;
 	background-color: #000;
 	color: #fff;
 }
@@ -94,19 +92,21 @@ div {
 }
 #image-title {
 	float: right;
-	margin: 400px 80px 0 0;
+	margin: 420px 10% 0 0;
 	color: #fff;
 	font-size: 80px;
+	clear: both;
 }
 #main-tagline {
 	height: 80px;
 	background-color: #000;
-	font-size: 80px;
+	font-size: 60px;
 	color: #fff;
 	text-align: center;
 }
 .tagline-text {
-	font-size: 100px;
+	font-size: 60px;
+	line-height: 90px;
 }
 #main-subtagline {
 	font-size: 30px;
@@ -115,4 +115,68 @@ div {
 	line-height: 60px;
 	background-color: #ddd;
 	border-top: 2px solid #333;
+}
+
+
+
+/*  Catalog  */
+.catalog-row {
+	margin-top: 40px;
+	text-align: center;
+}
+.axe-container-wrapper {
+	width: 1120px;
+	margin: 0 auto;
+}
+.axe-container {
+	width: 350px;
+	height: 506px;
+	margin: 0 20px 20px 0;
+	display: inline-block;
+	background-image: url("item-background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #fff;
+	vertical-align: top;
+}
+.axe-title {
+	font-size: 30px;
+	padding-top: 25px;
+}
+.axe-price {
+	float: right;
+	position: absolute;
+	background-color: yellow;
+	right: 0px;
+	top: 80px;
+	z-index: 1000;
+	padding: 5px 20px 0 20px;
+	color: #000;
+	font-size: 28px;
+	line-height: 40px;
+	clear: both;
+}
+.axe-image {
+	width: 350px;
+	position: relative;
+}
+.axe-image img {
+	width: 100%;
+	margin-top: 20px;
+}
+.add-to-cart {
+	margin-top: 20px;
+}
+.add-to-cart a {
+	padding: 10px 30px;
+	line-height: 50px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #111;
+	margin: 10px auto 0 auto;
+	border-radius: 5px;
+}
+.add-to-cart a:hover {
+	background-color: #1483c9;
 }
